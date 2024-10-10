@@ -6,7 +6,8 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
-    "prepublishOnly": "npm run build"
+    "prepublishOnly": "npm run build",
+    "test": "jest"
   },
   "keywords": ["strava", "api", "wrapper"],
   "author": "Your Name",
@@ -15,7 +16,10 @@
     "axios": "^0.21.1"
   },
   "devDependencies": {
+    "@types/jest": "^27.0.3",
     "@types/node": "^14.14.31",
+    "jest": "^27.4.5",
+    "ts-jest": "^27.1.2",
     "typescript": "^4.2.2"
   }
 }
