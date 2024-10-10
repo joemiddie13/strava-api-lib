@@ -1,8 +1,9 @@
 # Strava API Library and Test Application
 
-This project consists of two main parts:
+This project consists of three main parts:
 1. A JavaScript library wrapper for the Strava API (`strava-api-lib`)
 2. A React test application that demonstrates the usage of the library (`strava-test-app`)
+3. Uploaded to NPM as `strava-api-lib`: https://www.npmjs.com/package/strava-api-lib
 
 ## Strava API Library
 
